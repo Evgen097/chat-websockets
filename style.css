@@ -1,0 +1,42 @@
+
+.chat{
+    width: 500px;
+    margin: 20px auto;
+}
+
+.messages{
+    margin: 20px;
+    min-height: 100px;
+}
+
+.inputfield{
+
+}
+
+.clientmessage, .servermessage{
+    border-radius: 50px 50px 50px 50px;
+    margin: 10px;
+}
+
+.clientmessage{
+    color: white;
+    background-color: #4CAF50;
+    text-align: right;
+}
+
+.servermessage{
+    color: white;
+    background-color: #00bcd4;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+

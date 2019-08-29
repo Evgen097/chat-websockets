@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat on WebSocket</title>
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 style="text-align: center">Welkome in our chat!</h1>
+    <div class="chat">
+        <div class="messages">
+            <ul class="w3-ul w3-border" id="messageslist">
+                <li><h2>Messages</h2></li>
+                <li class="clientmessage">Jill</li>
+                <li class="servermessage" >Eve</li>
+                <li>Adam</li>
+            </ul>
+
+        </div>
+        <div class="inputfield">
+            <form name="chatform" id="chatform" class="w3-container">
+                <fieldset>
+                    <label for="chatinput">Type message:</label>
+                    <input type="text" name="chatinput" id="chatinput" class="w3-input">
+                    <button class="w3-button w3-blue">Send</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="clientws.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
